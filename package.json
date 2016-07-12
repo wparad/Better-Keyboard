@@ -1,0 +1,40 @@
+{
+  "name": "better-keyboard",
+  "version": "0.0.0",
+  "description": "Make a better keyboard.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha tests/**/*.js -R spec"
+  },
+  "dependencies": {
+    "commander": "^2.5.0",
+    "express": "^4.13.4",
+    "fs-extra": "^0.30.0",
+    "uuid": "^2.0.2"
+  },
+  "devDependencies": {
+    "travis-build-tools": "~1.2",
+    "chai": "^3.5.0",
+    "esprima": "^2.7.2",
+    "glob": "^5.0.15",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:wparad/better-keyboard.git"
+  },
+  "keywords": [
+    "T9",
+    "keyboard"
+  ],
+  "author": "Warren Parad <wparad@gmail.com> (http://wparad.github.io)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "git@gitlab.com:wparad/better-keyboard.git"
+  },
+  "homepage": "git@gitlab.com:wparad/better-keyboard.git"
+}
